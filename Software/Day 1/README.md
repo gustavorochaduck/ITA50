@@ -1,0 +1,2 @@
+This exercise is simple. The user will imput some value (Money) and the program need to tell how many panys you need to give to the user.
+I will use Python to this exercise becouse it's more confortable to see the algorithmus working
