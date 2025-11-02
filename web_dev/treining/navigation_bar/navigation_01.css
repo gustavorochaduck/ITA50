@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+bitcount-grid-single{
+  font-family: "Bitcount Grid Single", system-ui;
+}
+body{
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.nav{
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 2%;
+    margin-left: 20%;
+    justify-self: center;
+    background-color: black;
+    width: min-content;
+    border-radius: 15px;
+    height: min-content;
+    box-shadow: 20px 20px 40px rgb(68, 68, 68);
+}
+.nav_content{
+    display: flex;
+    justify-content: center;
+    padding: 3vh;
+    gap: 20vh;
+    font-family: "Bitcount Grid Single", system-ui;
+    font-size: 2vh;
+}
+.nav_content a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 1%;
+    border-radius: 15px;
+    transform-origin: 2;
+    transition-duration: 1s;
+}
+.nav_content a:hover{
+    background-color: rgb(22, 236, 22);
+    color: black;
+}
+.pub{
+    display: flexbox;
+    border-radius: 3vh;
+    padding: 2%;
+    margin-top: 8%;
+    background-color: black;
+    height: fit-content;
+    width: min-content; 
+    margin-left: 20%;
+}
+.kyoto{
+    width: 30vh;
+    padding-bottom: 5%;
+}
+.info h1{
+    font-family: "Bitcount Grid Single", system-ui;
+    color: whitesmoke;
+    font-size: 2vh;
+    width: fit-content;
+    padding-bottom: 2%;
+}
+.info p{
+    font-size: 1,5vh;
+    font-family: "Bitcount Grid Single", system-ui;
+    color: whitesmoke;
+    padding-bottom: 2%;
+}
+.Text{
+    font-size: 1,5vh;
+    font-family: "Bitcount Grid Single", system-ui;
+    color: whitesmoke;
+}
