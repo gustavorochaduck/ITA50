@@ -44,9 +44,11 @@ body{
     color: black;
 }
 .pub{
-    display: flexbox;
+    box-shadow: 20px 20px 20px rgb(68, 68, 68);
+    display: flex;
+    justify-content: center;
     border-radius: 3vh;
-    padding: 2%;
+    padding: 5vh;
     margin-top: 8%;
     background-color: black;
     height: fit-content;
@@ -71,7 +73,14 @@ body{
     padding-bottom: 2%;
 }
 .Text{
+    margin-left: 4%;
     font-size: 1,5vh;
     font-family: "Bitcount Grid Single", system-ui;
     color: whitesmoke;
+}
+.Text p{
+    width: 62vh;
+}
+.Text h1{
+    width: fit-content;
 }
