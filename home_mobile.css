@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+body{
+    background-color: rgb(24, 23, 28);
+    display: flexbox;
+}
+.navigation{
+    justify-content: center;
+    display: flex;
+    background-color: rgb(36, 35, 40) ;
+    padding: 2%;
+    margin-bottom: 10vh;
+    
+}
+.nav_content{
+    display: flex;
+    gap: 7vh;
+    font-family: "Bitcount Grid Single", system-ui;
+}
+.nav_content a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 3%;
+    transition: 1s;
+}
+.nav_content a:hover{
+    background-color: rgb(70, 68, 78);
+    padding: 3%;
+    margin: 0;
+    border-radius: vh;
+}
+.child_root{
+    display: flex;
+    justify-content: center;
+}
+.sector_1{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-self: center;
+    gap: 3vh;
+}
+.c_sharp{
+    display: flex;
+    gap: 25px;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.658);
+    justify-content: center;
+    /* background-color: rgba(24, 24, 26, 0.432); */
+    border: 1px solid whitesmoke;
+    border-radius: 3vh;
+    padding: 2vh;
+    max-width: 376px;
+    align-content: center;
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+}
+.c_sharp h1{
+    width: fit-content;
+    height: fit-content;
+    justify-self: center;
+    align-self: center;
+    color: whitesmoke;
+    font-family: "Bitcount Grid Single", system-ui;
+    font-size: medium;
+    font-weight: 250;
+
+}
+.c_sharp a{
+    align-self: center;
+    justify-self: center;
+    padding: 1vh;
+    border: 1px solid whitesmoke;
+    border-radius: 3vh;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Bitcount Grid Single", system-ui;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+.c_sharp img{
+    
+    justify-self: center;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+}
+.python{
+    display: flex;
+    gap: 25px;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.658);
+    justify-content: center;
+    /* background-color: rgba(24, 24, 26, 0.432); */
+    border: 1px solid whitesmoke;
+    border-radius: 3vh;
+    padding: 2vh;
+    max-width: 376px;
+    align-content: center;
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+}
+.python h1{
+    width: fit-content;
+    height: fit-content;
+    justify-self: center;
+    align-self: center;
+    color: whitesmoke;
+    font-family: "Bitcount Grid Single", system-ui;
+    font-size: medium;
+    font-weight: 250;
+
+}
+.python a{
+    align-self: center;
+    justify-self: center;
+    padding: 1vh;
+    border: 1px solid whitesmoke;
+    border-radius: 3vh;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Bitcount Grid Single", system-ui;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+.python img{
+    
+    justify-self: center;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+}
+.front_end{
+    display: flex;
+    max-width: 376px;
+    gap: 25px;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.658);
+    justify-content: center;
+    /* background-color: rgba(24, 24, 26, 0.432); */
+    border: 1px solid whitesmoke;
+    border-radius: 3vh;
+    padding: 2vh;
+    align-content: center;
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+}
+.front_end h1{
+    width: fit-content;
+    height: fit-content;
+    justify-self: center;
+    align-self: center;
+    color: whitesmoke;
+    font-family: "Bitcount Grid Single", system-ui;
+    font-size: smaller;
+    font-size: medium;
+    font-weight: 250;
+
+}
+.front_end a{
+    align-self: center;
+    justify-self: center;
+    padding: 1vh;
+    border: 1px solid whitesmoke;
+    border-radius: 3vh;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Bitcount Grid Single", system-ui;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+.front_end img{
+    justify-self: center;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+}
