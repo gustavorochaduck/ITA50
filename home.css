@@ -5,6 +5,8 @@
 } */
 body{
     background-color: rgb(24, 23, 28);
+    height: 100%;
+    height: 100%;
     display: flexbox;
 }
 .navigation{
@@ -31,6 +33,14 @@ body{
     background-color: rgb(70, 68, 78);
     margin: 0;
     border-radius: 1em;
+}
+.home_icon{
+    border-radius: 15%;
+}
+.home_icon img{
+    border-radius: 15%;
+    width: 50px;
+    height: 50px;   
 }
 .child_root{
     display: flex;
@@ -115,13 +125,15 @@ body{
         align-self: center;
         font-size: medium;
         font-weight: 250;
-        margin-bottom: 0;
+        width: 87px;
+        text-align: center;
+        margin: 0;
 
     }
     .sector_1_content a{
         align-self: center;
         justify-self: center;
-        padding: 1%;
+        padding: 3%;
         text-align: center;
     }
     .sector_1_content img{
