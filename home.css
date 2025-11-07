@@ -1,8 +1,8 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
-    border: 1px solid red;
-} */
+    /* border: 1px solid red; */
+}
 body{
     background-color: rgb(24, 23, 28);
     height: 100%;
@@ -28,6 +28,7 @@ body{
     text-decoration: none;
     padding: 1%;
     transition: 1s;
+    align-content: center ;
 }
 .nav_content a:hover{
     background-color: rgb(70, 68, 78);
@@ -35,23 +36,26 @@ body{
     border-radius: 1em;
 }
 .home_icon{
-    border-radius: 15%;
+    position: relative;
+    inset-inline-start: inherit;
 }
 .home_icon img{
+    padding: 0px;
     border-radius: 15%;
     width: 50px;
     height: 50px;   
 }
 .child_root{
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 .sector_1{
-    
     display: flex;
     width: fit-content;
+    justify-content: center;
     justify-self: center;
-    gap: 10em;
+    gap: 10%;
 
 }
 .sector_1_content{
@@ -104,9 +108,8 @@ body{
     .sector_1{
         display: flex;
         flex-direction: column;
-        width: fit-content;
         justify-self: center;
-        gap: 3vh;
+        gap: 1em;
     }
     .sector_1_content{
         display: flex;
@@ -115,7 +118,7 @@ body{
         padding: 1em;
         /* max-width: 376px;
         min-width: 367px; */
-        width: 100%;
+        width: fit-content;
         align-content: center;
         backdrop-filter: blur(40px);
         -webkit-backdrop-filter: blur(40px);
