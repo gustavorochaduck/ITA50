@@ -21,7 +21,6 @@ navigation.innerHTML = `
         background-color: rgb(36, 35, 40) ;
         padding: 1%;
         margin-bottom: 10em;
-        
     }
     .nav_content{
         width: 100%;
