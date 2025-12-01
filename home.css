@@ -5,44 +5,8 @@
 }
 body{
     background-color: rgb(24, 23, 28);
-    height: 100%;
+    height: 99.99vh;
     display: flexbox;
-}
-.navigation{
-    justify-content: center;
-    display: flex;
-    background-color: rgb(36, 35, 40) ;
-    padding: 1%;
-    margin-bottom: 10em;
-    
-}
-.nav_content{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-family: "Bitcount Grid Single", system-ui;
-}
-.nav_content a{
-    color: whitesmoke;
-    text-decoration: none;
-    padding: 1%;
-    transition: 1s;
-    align-content: center ;
-}
-.nav_content a:hover{
-    background-color: rgb(70, 68, 78);
-    margin: 0;
-    border-radius: 1em;
-}
-.home_icon{
-    position: relative;
-    inset-inline-start: inherit;
-}
-.home_icon img{
-    padding: 0px;
-    border-radius: 15%;
-    width: 50px;
-    height: 50px;   
 }
 .child_root{
     width: 100%;

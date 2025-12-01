@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 body {
@@ -52,10 +52,18 @@ body {
     margin-left: auto;
     margin-top: 30px;
 }
-/* @media (min-width: 600px) {
+@media (max-width: 600px){
 
-    .Title img{
+    .content {
+       display: flex;
+       flex-direction: column;
+       min-width: fit-content;
+    }
+    .Title img {
         display: none;
     }
-    
-} */
+    .Title h1{
+        font-size: .90em;
+    }
+
+}
